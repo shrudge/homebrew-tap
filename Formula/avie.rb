@@ -9,6 +9,10 @@ class Avie < Formula
   depends_on :macos
 
   def install
+    inreplace "Sources/AvieCore/Version.swift", 
+              /public let avieToolVersion = .*/, 
+              "public let avieToolVersion = \"#{version}\""
+
     system "swift", "build", "-c", "release", "--disable-sandbox"
     bin.install ".build/release/avie"
   end
