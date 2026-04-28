@@ -2,7 +2,7 @@ class Avie < Formula
   desc "Swift package graph diagnostics tool"
   homepage "https://github.com/shrudge/avie"
   url "https://github.com/shrudge/avie/archive/refs/tags/v1.0.2.tar.gz"
-  sha256 "f1d1d8aabd22e3b7e6de1fb3cda9d7d0d14a2d37f8ae4f5879f2c1ac26f4cf3f"
+  sha256 "258e225ade31b29ce2c42d7fe20839f566fc83665676d4cb4700df045ac68f48"
   license "MIT"
 
   depends_on xcode: ["14.0", :build]
