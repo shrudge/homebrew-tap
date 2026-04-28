@@ -3,10 +3,10 @@ class Avie < Formula
   homepage "https://github.com/shrudge/avie"
   
 
-  url "https://github.com/shrudge/avie/releases/download/v1.0.3/avie.tar.gz"
+  url "https://github.com/shrudge/avie/releases/download/v1.0.4/avie.tar.gz"
   
 
-  sha256 "6f566c6ffee3ca8013d4b9a80d70d363d9ef83d45b72a0068ffe330e2348e8a5"
+  sha256 "8530681465803e746576f795137614de99e4f908dd2ae98bc682ba11711b05fb"
   
   license "MIT"
 
