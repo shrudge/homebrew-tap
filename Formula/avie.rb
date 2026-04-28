@@ -6,7 +6,7 @@ class Avie < Formula
   url "https://github.com/shrudge/avie/releases/download/v1.0.3/avie.tar.gz"
   
 
-  sha256 "258e225ade31b29ce2c42d7fe20839f566fc83665676d4cb4700df045ac68f48"
+  sha256 "6f566c6ffee3ca8013d4b9a80d70d363d9ef83d45b72a0068ffe330e2348e8a5"
   
   license "MIT"
 
